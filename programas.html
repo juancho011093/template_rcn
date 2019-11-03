@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="es" data-reactroot="">
+<head>
+    <title>Programas | Canal RCN - Nuestra Tele</title>
+     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+     <link href="appcliente/css/programas.css" rel="stylesheet" type="text/css">
+     <link href="appcliente/css/all.css" rel="stylesheet" type="text/css">
+     <link href="appcliente/css/header-generico.css" rel="stylesheet" type="text/css">
+     <script type="text/javascript" src="appcliente/js/jquery-1.9.1.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="appcliente/css/profooter.css" rel="stylesheet" type="text/css">
+    
+</head>
+    <body>
+        <header id="externo-canal" class="menu-general-canal">
+            <div id="menu-principal">
+                <div class="float-left float-mobile" style="float: left;">
+                    <div class="iten-header menu">
+                        <nav>
+                            <ul class="canal-fijo">
+                                <div class="buscar-menu">
+                                    <gcse:search></gcse:search>
+                                </div>
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <div class="iten-header logo">
+                        <a href="index.html">
+                            <div class="logo-des">
+                                <img width="50px" src="appcliente/img/logo-canal-rcn-2019.png" alt="Logo CanalRCN">
+                            </div>
+                            <div class="logo-mobile">
+                                <img width="50px" src="appcliente/img/logo-canal-rcn-2019.png" alt="Logo CanalRCN">
+                            </div>
+                        </a>
+
+                    </div>
+
+                    <div class="menu-des">
+                        <ul>
+                            <li>
+                                <a href="programas.html" title="PROGRAMAS">Programas</a>
+                            </li>
+                            <li>
+                                <a href="#" title="SUPERLIKE">Superlike</a>
+                            </li>
+                            <li>
+                                <a href="deportes.html" title="DEPORTES">Deportes</a>
+                            </li>
+                            <li>
+                                <a href="#" title="NOTICIAS">Noticias</a>
+                            </li>
+                            <li>
+                                <a href="juegos.html" title="NOTICIAS">TodoGamers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="float-right float-mobile-two">
+                    <ul class="list-inline">
+                        <li class="envivo2">
+                            <a href="#">
+                                <div class="envivo-1">
+                                    <div class="span-text">EN VIVO</div>
+                                    <span class="play1">
+                  <svg shape-rendering="geometricPrecision" version="1.1" id="Capa_1" xmlns="#" xmlns:xlink="#" x="0px" y="0px" viewBox="0 0 20 20" style="width: 12px;height: 12px;" xml:space="preserve">
+                    <path fill="#ffffff" d="M14.1,9.6c0.3,0.2,0.3,0.6,0,0.9l-4,3.4l-3.6,3c-0.4,0.3-0.9,0-0.9-0.4V10V3.6c0-0.5,0.6-0.7,0.9-0.4l3.6,3L14.1,9.6z" />
+                  </svg>
+                </span>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="redes facebook">
+                            <a href="#">
+                                <svg shape-rendering="geometricPrecision" width="15px" height="15px" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f fa-w-10" role="img" viewBox="0 0 320 512">
+                                    <path fill="#ffffff" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="redes twitter">
+                            <a href="#">
+                                <svg shape-rendering="geometricPrecision" width="15px" height="15px" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" viewBox="0 0 512 512">
+                                    <path fill="#ffffff" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="redes instagram">
+                            <a href="#">
+                                <svg shape-rendering="geometricPrecision" width="15px" height="15px" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" viewBox="0 0 448 512">
+                                    <path fill="#ffffff" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="redes youtube">
+                            <a href="#">
+                                <svg shape-rendering="geometricPrecision" width="15px" height="15px" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" class="svg-inline--fa fa-youtube fa-w-18" role="img" viewBox="0 0 576 512">
+                                    <path fill="#ffffff" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li id="buscar-boton">
+                            <gcse:search></gcse:search>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+</div>
+<noscript>
+    <iframe src="#" height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+</noscript>
+<section class="slide-apertura-programas">
+    <div id="slide-programas">
+        <div class="contenedor-slide">
+            <div class="slick-slide">
+                <a href="#">
+                    <div class="imagen-slide">
+                        <img src="appcliente/img/banner_programas_los-reyes.jpg?null" alt="" />
+                    </div>
+                    <div class="sombra-slide">
+                    </div>
+                </a>
+                <div class="slide-titulo-horario-redes">
+                    <a href="#">
+                        <h2>Los Reyes</h2>
+                    </a>
+                    <p>LUNES A VIERNES, 9:00 P.M. </p>
+                    <div class="slide-redes">
+                        <span class="slide-redes-siguenos">SIGUENOS</span>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="slick-slide">
+                <a href="#">
+                    <div class="imagen-slide">
+                        <img src="appcliente/img/banner_programas_emeg_v2.jpg?null" alt="" />
+                    </div>
+                    <div class="sombra-slide">
+                    </div>
+                </a>
+                <div class="slide-titulo-horario-redes">
+                    <a href="#">
+                        <h2>El Man es German </h2>
+                    </a>
+                    <p>LUNES A VIERNES, 8:00 P.M.</p>
+                    <div class="slide-redes">
+                        <span class="slide-redes-siguenos">SiGUENOS</span>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="slick-slide">
+                <a href="#">
+                    <div class="imagen-slide">
+                        <img src="appcliente/img/banner_programas_enfermeras.jpg?null" alt="Enfermeras " />
+                    </div>
+                    <div class="sombra-slide">
+                    </div>
+                </a>
+                <div class="slide-titulo-horario-redes">
+                    <a href="#">
+                        <h2>Enfermeras </h2>
+                    </a>
+                    <p>LUNES A VIERNES, 10:00 P.M. </p>
+                    <div class="slide-redes">
+                        <span class="slide-redes-siguenos">SiGUENOS</span>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="slick-slide">
+                <a href="#">
+                    <div class="imagen-slide">
+                        <img src="appcliente/img/banner_programas_ee.jpg?null" alt="" />
+                    </div>
+                    <div class="sombra-slide">
+                    </div>
+                </a>
+                <div class="slide-titulo-horario-redes">
+                    <a href="#">
+                        <h2>El Estilista </h2>
+                    </a>
+                    <p>LUNES A VIERNES, 11:00 P.M. </p>
+                    <div class="slide-redes">
+                        <span class="slide-redes-siguenos">SIGUENOS</span>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="slick-slide">
+                <a href="#">
+                    <div class="imagen-slide">
+                        <img src="appcliente/img/banner_programas_4caminos_nuevo.jpg?null" alt="" />
+                    </div>
+                    <div class="sombra-slide">
+                    </div>
+                </a>
+                <div class="slide-titulo-horario-redes">
+                    <a href="#">
+                        <h2>Cuatro Caminos</h2>
+                    </a>
+                    <p>DOMINGOS, 9:00 P.M. </p>
+                    <div class="slide-redes">
+                        <span class="slide-redes-siguenos">SIGUENOS</span>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="slick-slide">
+                <a href="#">
+                    <div class="imagen-slide">
+                        <img src="appcliente/img/banner_programas_mc_nuevo.jpg?null" alt="" />
+                    </div>
+                    <div class="sombra-slide">
+                    </div>
+                </a>
+                <div class="slide-titulo-horario-redes">
+                    <a href="#">
+                        <h2>MasterChef Celebrity</h2>
+                    </a>
+                    <p>SABADOS Y DOMINGOS, 8:00 P.M. </p>
+                    <div class="slide-redes">
+                        <span class="slide-redes-siguenos">SIGUENOS</span>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="slick-slide">
+                <a href="#">
+                    <div class="imagen-slide">
+                        <img src="appcliente/img/banner_programas_yjg.jpg?null" alt="Yo, Jose Gabriel " />
+                    </div>
+                    <div class="sombra-slide">
+                    </div>
+                </a>
+                <div class="slide-titulo-horario-redes">
+                    <a href="#">
+                        <h2>Yo, Jose Gabriel </h2>
+                    </a>
+                    <p>DOMINGOS, 10:00 P.M. </p>
+                    <div class="slide-redes">
+                        <span class="slide-redes-siguenos">SIGUENOS</span>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="slick-slide">
+                <a href="#">
+                    <div class="imagen-slide"><img src="appcliente/img/programas_el_desayuno_0.jpg?null" alt="" /></div>
+                    <div class="sombra-slide"></div>
+                </a>
+                <div class="slide-titulo-horario-redes"><a href="#"><h2>El Desayuno</h2></a>
+                    <p>Lunes a viernes, 8:30 a.m.</p>
+                    <div class="slide-redes"><span class="slide-redes-siguenos">SIGUENOS</span>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="slick-slide">
+                <a href="#">
+                    <div class="imagen-slide"><img src="appcliente/img/banner_programas_tda_0.jpg?null" alt="" /></div>
+                    <div class="sombra-slide"></div>
+                </a>
+                <div class="slide-titulo-horario-redes"><a href="#"><h2>Tormenta de Amor </h2></a>
+                    <p>LUNES A VIERNES, 10:30 A.M.</p>
+                    <div class="slide-redes"><span class="slide-redes-siguenos">SIGUENOS</span>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div>
+    
+</div>
+<section class="list-secciones">
+    <ul>
+        <li id="serires" class="activo">series y telenovelas</li>
+        <li id="realities">realities y concursos</li>
+        <li id="informativos">informativos</li>
+        <li id="variedades">programas de variedades</li>
+        <li id="series-web">series web</li>
+    </ul>
+</section>
+<section class="imagenes-programas">
+    <div id="imagenes-producciones">
+        <div class="imagenes-program" id="imagenes-program">
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_emeg_v2.jpg?null&amp;itok=nD915iWn" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_lr.jpg?null&amp;itok=HyuHBYGg" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_enfermeras.jpg?null&amp;itok=vIKBKgge" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_el_estilista.jpg?null&amp;itok=818Dyrdl" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_tormenta_v1.jpg?null&amp;itok=-HgaxRrB" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_inutil.jpg?null&amp;itok=cnQK-vLW" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_ringo.jpg?null&amp;itok=YR6yruZ8" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_jesus.jpg?null&amp;itok=669wP1p1" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_justicia_v1_0.jpg?null&amp;itok=9UiZ9gG_" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/rosa_guadalupe.jpg?C5bF32Xa5Zr.TTYlADXM3focOPqhui6g&amp;itok=WMBeRAz-" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_betty_vertical.jpg?null&amp;itok=iarudAPN" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_lady_v1.jpg?null&amp;itok=RkG9s_Kn" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_la_guzman.jpg?null&amp;itok=CvdvHFRP" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_lldc_ok_vert_0.jpg?null&amp;itok=Ok8RbKFk" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_mam_vertical.jpg?null&amp;itok=VDSwqkXn" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_qet.jpg?null&amp;itok=NUoZGRbc" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_rtm_v2.jpg?null&amp;itok=xVGqdWgv" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_sdu_v2.jpg?null&amp;itok=qN4vLvoh" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_intriga.jpg?null&amp;itok=ULFk0rSW" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_jde.jpg?null&amp;itok=2Bx1Iajt" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vert_anonima_0.jpg?null&amp;itok=h1isFzzR" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/caer-en-tentacion-poster-vertical_0.jpg?null&amp;itok=hWk6Enee" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_celia_0.jpg?null&amp;itok=niaRVpwu" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_noobees.jpg?null&amp;itok=rvmjLhO9" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_hqlpns_0.jpg?null&amp;itok=YSHLfiJj" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_ledd_0.jpg?null&amp;itok=n-yeY41h" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/quien-mato-a-patricia-soler-homevertical_0.jpg?sZBs97L2CDP6qLalazBvDpj0dM_5dGJr&amp;itok=PIneoZzp" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_mpsf.jpg?null&amp;itok=0l-QbKFh" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_vertical_1.jpg?srjYNglaDfc4dQZ4PLGOLwcfo0dHU1hE&amp;itok=LYOFazhl" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_nmqlb_vertical.jpg?u9Wt8UfxHjGnAgI21nMABXkuz7hJ8bdc&amp;itok=q7SImiGk" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_diomedes_vertical.jpg?_iYtp12CAFcapILMbPy3_ZsdAQsDpjjJ&amp;itok=ksoLq6GN" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/eva.jpg?D_yoxxH3.IgEYxX9p1A76Xh7fJDiWobj&amp;itok=FPDKYPdU" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/piezaprogramaparaiso.jpg?h1khZhKBOqAnRHREUEQfRZV6tOyLzsKz&amp;itok=4RqbXCk4" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/pieza-programa.jpg?4T9Juu3gn75HrJTuJw19rW7KtYykf_xS&amp;itok=2zcI-lNv" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_la_ley_del_corazon_1.jpg?YsNKQM2mVuCEDUf45JOcFE7tGtj_J3uk&amp;itok=uLh9kcOy" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/raices_3.jpg?DTZhv2N4Ox9Aj8F89Ph5K3TcLA46_CvE&amp;itok=cD1HZ03u" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/los-milagros-de-jesus.jpg?h_fZ7GHDxC7YVG1l5TAyKl6fPV3p7jgD&amp;itok=VvF_Rmqc" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/programacion.jpg?a0criNL55q7ZuV7h6f6ewuYmmxEN_8DW&amp;itok=chiPLUXj" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_paquita_la_del_barrio.jpg?wI58HqXf07Rt2TqSC1kQeqagoDwltCLN&amp;itok=1fGhRWWh" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/olvidaras-pro.jpg?X68ERXrrnuutSrhZqXAoKFtg9.yKryTf&amp;itok=UoHcKXJ0" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_francisco_el_matematico.jpg?OZHVyvsInaaPh0Gy71hrfus4dQ5Zz8IL&amp;itok=fctY-XCX" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/comandante.jpg?QAK2YeMWO_xG4dAT0CZCM.bMbRP7JQ4Z&amp;itok=isIzNmy1" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/vegas.jpg?KB5icWveYmF1fUzuRsqet4G2UE0gGrVU&amp;itok=AV-1bPb1" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/joan_sebastian.jpg?HJzY1tN9gKDWU_QjBxEpldynRs5aEFvJ&amp;itok=Lj81xgBS" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/galeano.jpg?wHVAHMzlMl.8yrLsz.qy1o2tMbXvzwVE&amp;itok=48Mb-gAT" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_bloque_de_busqueda.jpg?kZ2rtI0UcYqL7J3Yq.dbL6EWYWTLP_1.&amp;itok=QpOv-Fl6" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_azucar_0.jpg?L7crSeM6_0pjRu8Dbzu2R9fiMFwchPiq&amp;itok=ZWJD5L4H" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_contra_el_tiempo.jpg?ZaTYTqlnmHNQmlYZ9ZY9Shiqgr83WJBo&amp;itok=4OsgkdiA" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/vertical-ldmo.png?P2fnJBXKNHv8jGHnbq8bnzii7o0PR4Sf&amp;itok=zafjRMEq" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/pambele-pro.jpg?3HBSiTurhqSZl8ZIBQOd5qm07m2lpqId&amp;itok=5QmqhP5P" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/venganza-pro.jpg?NkND8XBnHZxWtOrJZgvXWjm1gMgJRsLN&amp;itok=R1oJ3pxU" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_hasta_que_te_conoci.jpg?ihQRyCvEuEUhnFk.aQbKRmnBDp4LdUi8&amp;itok=xUR120Tn" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/site_hh.jpg?cvZKe6bTp7qlFWLxxacpviiJK_ELCdK5&amp;itok=bdvb1wea" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_sala_de_urgencias.jpg?Jpm.4YxvhBlJAe5D.Qj3zeMowGoDfZPT&amp;itok=dO8_T1Rm" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/sangre-azul.jpg?Yurqy.GiMOno0bzbTXTi2ezl_j5ZlENZ&amp;itok=5mgqYGVJ" alt="" /></div>
+                </a>
+            </div>
+            <div class="produccion-img">
+                <a href="#">
+                    <div class="imagen-prod"><img src="appcliente/img/poster_la_playita.jpg?7XTqX8Uhp_kohTSw2vHnLJuto0SYIphH&amp;itok=6BaNSnTK" alt="" /></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+<div id="cookies">
+            <div class="text">
+                <p>Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario a traves de su navegacion. Si continuas navegando aceptas su uso.
+                    <a href="#">  Politicas de cookies</a>
+                </p>
+            </div>
+            <button id="iagree">ENTENDIDO</button>
+        </div>
+
+        <footer>
+            <div class="bloque-footer-1">
+                <div class="bloque-footer-a logo">
+                    <a href="#">
+                        <img style="width:180px !important;" src="appcliente/img/logo-rcn-2019-footer.png" alt="Logo CanalRCN">
+                    </a>
+                </div>
+
+            </div>
+            <div class="bloque-footer-2">
+
+                <div class="bloque-col-2 redes">
+
+                    <ul>
+                        <p>
+                            SIGUENOS EN
+                        </p>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-youtube-play"></i>
+                            </a>
+                        </li>
+                        <p>Un producto de RCN TELEVISION 2019</p>
+                    </ul>
+                </div>
+
+                <div class="bloque-col-2">
+                    <div class="bloque-conten">
+                        <div class="titulo-bloque-col-3">
+                            <h3>Secciones</h3>
+
+                        </div>
+
+                        <div class="bloque-nav">
+                            <nav>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Se&ntilde;al en vivo</a></li>
+                                    <li><a href="#">Programas</a></li>
+                                    <li><a href="#">Noticias RCN</a></li>
+                                    <li><a href="#">Deportes RCN</a></li>
+                                    <li><a href="#">SuperLike</a></li>
+                                    <li><a href="#">TodoGamers</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="bloque-col-2">
+                    <div class="bloque-conten">
+                        <div class="titulo-bloque-col-3">
+                            <h3>Corporativo</h3>
+
+                        </div>
+
+                        <div class="bloque-nav">
+                            <nav>
+                                <ul>
+                                    <li><a href="#">Responsabilidad Social</a></li>
+                                    <li><a href="#">Atencion al televidente</a></li>
+                                    <li><a href="#">Atencion al inversionista</a></li>
+                                    <li><a href="#">Informe de sostenibilidad</a></li>
+                                    <li><a href="#">Codigo de autorregulacion</a></li>
+                                    <li><a href="#">Ventas Internacionales</a></li>
+                                    <li><a href="#">Correo Empresarial</a></li>
+                                    <li><a href="#">Linea Etica</a></li>
+                                    <li><a href="#">Prensa RCN</a></li>
+                                    <li><a href="#">OBA</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="bloque-col-2">
+                    <div class="bloque-conten">
+                        <div class="titulo-bloque-col-3">
+                            <h3>Visita tambien</h3>
+
+                        </div>
+
+                        <div class="bloque-nav">
+                            <nav>
+                                <ul>
+                                    <li><a href="#">RCN Radio</a></li>
+                                    <li><a href="#">La Republica</a></li>
+                                    <li><a href="#">RCN Comerciales</a></li>
+                                    <li><a href="#">Nuestra Tele Internacional</a></li>
+                                    <li><a href="#">NTN24</a></li>
+                                    <li><a href="#">Novelas</a></li>
+                                    <li><a href="#">Fides</a></li>
+                                    <li><a href="#">TDT</a></li>
+
+                                </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+                <div class="sub-footer">
+
+                    <div class="bloque-col-2">
+                        <div class="bloque-conten">
+                            <div class="titulo-bloque-col-3">
+                                <h4><a href="#">
+                Proteccion de datos pesonales Canal RCN</a></h4>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bloque-col-2">
+                        <div class="bloque-conten">
+                            <div class="titulo-bloque-col-3">
+                                <h4><a href="#">
+                 Proteccion de datos pesonales NTN24</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bloque-col-2">
+                        <div class="bloque-conten">
+                            <div class="titulo-bloque-col-3">
+                                <h4><a href="#">
+                          Codigo de autorregulacion</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bloque-col-2">
+                        <div class="bloque-conten">
+                            <div class="titulo-bloque-col-3">
+                                <h4><a href="#">
+                          Politica de cookies</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bloque-col-2">
+                        <div class="bloque-conten">
+                            <div class="contenedor-logos">
+                                <div class="logos-foo">
+                                    <a href="#"><img width="70px" src="appcliente/img/logo-iab.png"></a>
+                                </div>
+                                <div class="logos-foo">
+                                    <a href="#"><img width="30px" src="appcliente/img/logo-asomedios.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+<!--------------------------COOKIES ------------------------------>
+    <script type="text/javascript" src="appcliente/js/uso-cookies.js"></script>
+    <script src="appcliente/js/slick.min.js" type="text/javascript"></script>
+    <script src="appcliente/js/programa.js" type="text/javascript"></script>
+<!---------------------------FIN COOKIES  ---------------------------->
+    </body>
+</html> 
